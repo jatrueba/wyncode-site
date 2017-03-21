@@ -1,0 +1,123 @@
+.page-warpper{
+  font-family: "Rajdhani", "Helvetica", sans-serif;
+  font-weight: 400;
+
+}
+  .wyncode{
+  background-image: url("agile.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+  font-size: 3.33333em;
+  line-height: 1.16667em;
+  color: white;
+
+}
+
+
+a.btn-primary {
+ margin-top: 18em;
+ background-color: #F110A8;
+ border-color: #F110A8;
+}
+i{
+  color: #00B4AB;
+}
+
+
+div.col-xs-6  {
+  font-size: 16px;
+line-height: 16px;
+  font-weight: 300;
+  text-align: center;
+  padding-right: 2em;
+  padding-left: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+ background: white;
+ margin-bottom: 1em;
+ margin-top: 1em;
+
+
+
+
+}
+#b{
+  display: none;
+}
+i:hover{
+  color:  #F110A8;
+  transform: scale(1.2);
+  -webkit-transition: all 300ms ease-in-out;
+     -moz-transition: all 300ms ease-in-out;
+     -ms-transition: all 300ms ease-in-out;
+     -o-transition: all 300ms ease-in-out;
+     transition: all 300ms ease-in-out;
+     display: block;
+
+
+}
+
+i:hover ~ #b {
+
+ transform: scale(1.2);
+
+    display: block;
+
+
+}
+
+
+.section{
+  color: white;
+  background-color: #5BC2E7;
+  height: 200px;
+  font-size: 16px;
+ line-height: 16px;
+  font-weight: 300;
+  text-align: center;
+
+
+}
+.container_contact{
+
+
+    height: 200px;
+}
+.contact_photo{
+  
+  float: left;
+  width: 20%;
+  max-width: 160px;
+  height: auto;
+
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+
+}
+.contact__details{
+font-family: Lato, Arial, Helvetica, "Helvetica Neue", sans-serif;
+
+font-size: 1.33333em;
+
+line-height: 2.33333em;
+box-sizing: border-box;
+float: left;
+width: 30%;
+max-width: 18em;
+padding: 0 1em 0 2em;
+
+}
+
+.contact_content{
+  box-sizing: border-box;
+  font-size: 1.33333em;
+  line-height: 2.33333em;
+  float: right;
+  width: 50%;
+  padding-left: 4em;
+  border-left: 1px solid #e5e5e5;
+  margin: 20px;
+}
